@@ -47,7 +47,6 @@ def check_win(list_of_moves, state_player):
 def end_game():
     if len(enabled_steps) == 0:
         label_info['text'] = "Игра окончена!"
-        print("Вызывли конец")
 
 
 def push(movement):
